@@ -1,0 +1,5 @@
+node_modules/
+.env
+weather.db
+weather.db-wal
+weather.db-shm

@@ -1,0 +1,18 @@
+{
+  "name": "local-weather-tracker",
+  "version": "1.0.0",
+  "description": "Weather forecast tracker with change detection and email alerts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js --dry-run"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "nodemailer": "^6.9.0",
+    "dotenv": "^16.4.0"
+  },
+  "keywords": ["weather", "forecast", "alerts"],
+  "author": "",
+  "license": "ISC"
+}
